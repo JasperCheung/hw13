@@ -58,7 +58,7 @@ var fillPlot = function(){
 	.attr("cy", function(d) { return 530 - ( ( ( d[1] - 12000 ) / 1000) * 24)})
 	.attr("r",10)
 	.attr("fill", "red")
-    svg.append(points);
+    //svg.append(points); don't need right?
 };
 fillData();
 labels();
